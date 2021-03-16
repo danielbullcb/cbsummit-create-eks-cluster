@@ -25,7 +25,7 @@ EKS_NODE_AS_GROUP_MAX="3"
 EKS_NODE_AS_GROUP_DESIRED="3"
 
 #Amazon instance type - Refer to Amazon Documentation for available values
-EKS_NODE_INSTANCE_TYPE="m4.4xlarge"
+EKS_NODE_INSTANCE_TYPE="m5.4xlarge"
 
 #Amazon Image Id - Refer to https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html for full list.  The region is important for AMI to use.  The below is for us-east-2
 EKS_IMAGE_ID="ami-0316939d36d601217"
