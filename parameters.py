@@ -5,21 +5,21 @@ DNS="se-couchbasedemos.com"
 #===============================
 #	VPC Information
 #===============================
-VPC_STACK_NAME="neurdevdaystack"
+VPC_STACK_NAME="dansneurdevdaystack"
 VPC_TEMPLATE="https://amazon-eks.s3-us-west-2.amazonaws.com/cloudformation/2018-12-10/amazon-eks-vpc-sample.yaml"
 
 #===============================
 #	EKS Cluster
 #===============================
-EKS_CLUSTER_NAME="neurdevdaycluster"
+EKS_CLUSTER_NAME="dansneurdevdaycluster"
 EKS_ROLE_ARN="arn:aws:iam::669678783832:role/cbd-eks-role"
 
 #===============================
 #	EKS Worker Nodes
 #===============================
 EKS_NODES_TEMPLATE="https://amazon-eks.s3-us-west-2.amazonaws.com/cloudformation/2018-12-10/amazon-eks-nodegroup.yaml"
-EKS_NODES_STACK_NAME="neurdevdayclusternodes"
-EKS_NODE_GROUP_NAME="neurdevdayeksnodes"
+EKS_NODES_STACK_NAME="dansneurdevdayclusternodes"
+EKS_NODE_GROUP_NAME="dansneurdevdayeksnodes"
 EKS_NODE_AS_GROUP_MIN="3"
 EKS_NODE_AS_GROUP_MAX="3"
 EKS_NODE_AS_GROUP_DESIRED="3"
