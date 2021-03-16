@@ -11,7 +11,7 @@ VPC_TEMPLATE="https://amazon-eks.s3-us-west-2.amazonaws.com/cloudformation/2018-
 #===============================
 #	EKS Cluster
 #===============================
-EKS_CLUSTER_NAME="neur_devday_stack"
+EKS_CLUSTER_NAME="neur_devday_cluster"
 EKS_ROLE_ARN="arn:aws:iam::669678783832:role/cbd-eks-role"
 
 #===============================
